@@ -1,0 +1,136 @@
+/* reset */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,menu{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img {
+    max-width: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+/* container */
+.container-sm {
+max-width: 1032px;
+}
+.container-md {
+    max-width:1232px;
+
+}
+.container-sm, .container-md, .container-bg{
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+button {
+    background-color: rgb(0, 97, 255);
+    color: white;
+    padding:5px;
+    border-color: transparent;
+    width: auto;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.arrow {
+    font-size: 50px;
+    font-weight: 100px; 
+    margin-top: auto;
+}
+
+
+/* header */
+header{
+    background-color: white;
+    
+}
+
+.drpbx-hdr {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+
+    
+
+}
+.hdr-row{
+    justify-content: space-between;
+    min-height: 60px;
+    align-items: center;
+    
+}
+
+/* main */
+
+.hero {
+    background-color: rgb(180, 208, 231);
+    padding: 70px 0 30px;
+}
+
+.colonna-1{
+    width: 30%;
+    margin-top: 30px;
+}
+
+.colonna-2{
+    width: 70%;
+    margin-top: 30px;
+}
+
+.prg-hero{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.
+
+
+
+
+
+
+
+/* debug */
+/* .debug header{
+    background-color: aqua;
+
+}
+
+.debug .drpbx-hdr{
+border: black solid ;
+
+} */
+
+
