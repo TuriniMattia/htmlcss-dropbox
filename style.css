@@ -145,6 +145,11 @@ header{
 }
 
 .cll-lst{
+    padding: 20px;
+}
+
+.btn-lst {
+
 }
 
 .colonna-1d3 {
@@ -153,7 +158,6 @@ header{
     border: 1px solid rgb(0, 0, 0) ;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .colonna-3d3 {
