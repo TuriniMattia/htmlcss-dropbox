@@ -93,6 +93,8 @@ header{
 
 /* main */
 
+/* hero */
+
 .hero {
     background-color: rgb(180, 208, 231);
     padding: 70px 0 30px;
@@ -116,8 +118,50 @@ header{
     gap: 40px;
 }
 
+/* upper-sct */
 
+.upper-sct{
+    background-color: white;
+    padding: 40px;
 
+}
+.ttl-us{
+    margin-top: 40px;
+    font-size: larger;
+
+}
+
+.btn-us{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.cll-us{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+   
+}
+
+.cll-lst{
+}
+
+.colonna-1d3 {
+    width: calc(3 * 100% / 12);
+    flex-grow: 1;
+    border: 1px solid rgb(0, 0, 0) ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.colonna-3d3 {
+    width: 100%;
+    border: 1px solid black ;
+    opacity: 0.5;
+
+}
 
 
 
@@ -134,4 +178,11 @@ border: black solid ;
 
 } */
 
+/* .debug .colonna-1d3{
+    border: solid black;
+}
 
+
+.debug .colonna-3d3{
+    border: solid black;
+} */
