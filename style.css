@@ -50,7 +50,8 @@ button {
     color: white;
     padding:5px;
     border-color: transparent;
-    width: auto;
+    display:inline-block;
+
 }
 
 h1 {
@@ -100,6 +101,7 @@ header{
 .colonna-1{
     width: 30%;
     margin-top: 30px;
+    align-items:flex-start ;
 }
 
 .colonna-2{
@@ -114,7 +116,6 @@ header{
     gap: 40px;
 }
 
-.
 
 
 
