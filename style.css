@@ -152,23 +152,59 @@ header{
 
 }
 
+.psn-btn {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.cll-ttl {
+    text-align: center;
+    border-bottom: 1px solid rgba(219, 219, 221, 1);
+    padding: 10px;
+}
+
 .colonna-1d3 {
     width: calc(3 * 100% / 12);
     flex-grow: 1;
-    border: 1px solid rgb(0, 0, 0) ;
+    border: 1px solid rgba(219, 219, 221, 1) ;
     display: flex;
     flex-direction: column;
 }
 
 .colonna-3d3 {
     width: 100%;
-    border: 1px solid black ;
-    opacity: 0.5;
+    border: 1px solid rgba(219, 219, 221, 1);
+    position: relative;
 
 }
 
 
+/* middle-sct */
 
+.middle-sct{
+    margin-top: 100px;
+}
+
+.cll-mls-40{
+    width: 40%;
+    padding: 40px;
+    text-align: left;
+}
+.cll-mls-60{
+    width: 60%;
+}
+
+/* lower-sc */
+
+.lower-sct {
+    margin-top: 100px;
+}
+
+.cll-lwr{
+    width: 33%;
+    padding: 30px;
+}
 
 
 /* debug */
