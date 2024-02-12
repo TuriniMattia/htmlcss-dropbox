@@ -145,11 +145,18 @@ header{
 }
 
 .cll-lst{
-    padding: 20px;
+    padding: 40px;
 }
 
+.cll-lst > ul  > li{
+    margin-bottom: 20px;
+}
 .btn-lst {
 
+}
+.check {
+    color: rgb(0, 97, 255);
+    font-size: large;
 }
 
 .psn-btn {
@@ -202,10 +209,25 @@ header{
 }
 
 .cll-lwr{
-    width: 33%;
-    padding: 30px;
+    width: calc(4 * 100% / 12);
+    padding-right: 40px;
 }
 
+/* sponsor-sct */
+
+.sponsor-sct{
+
+}
+
+
+.spn-cll{
+    width: calc(4 * 100% / 12);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
 
 /* debug */
 /* .debug header{
