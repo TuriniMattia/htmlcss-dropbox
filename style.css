@@ -48,9 +48,11 @@ max-width: 1032px;
 button {
     background-color: rgb(0, 97, 255);
     color: white;
-    padding:5px;
+    padding: 10px;
     border-color: transparent;
     display:inline-block;
+    font-size: 20px;
+    text-align: center;
 
 }
 
@@ -59,7 +61,15 @@ h1 {
 }
 
 p{
-    font-size: 14px;
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+hr {
+    width: 70px;
 }
 
 .arrow {
@@ -152,7 +162,7 @@ header{
     margin-bottom: 20px;
 }
 .btn-lst {
-
+    
 }
 .check {
     color: rgb(0, 97, 255);
@@ -226,7 +236,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-
+    height: calc(4 * 100vw / 12);
 }
 
 /* debug */
