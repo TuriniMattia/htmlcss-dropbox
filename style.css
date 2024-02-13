@@ -10,10 +10,7 @@ ul,ol,menu{
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-    color: currentColor;
-}
+
 
 img {
     max-width: 100%;
@@ -50,7 +47,7 @@ button {
     color: white;
     padding: 10px;
     border-color: transparent;
-    display:inline-block;
+    display: inline-block;
     font-size: 20px;
     text-align: center;
 
@@ -59,7 +56,15 @@ button {
 h1 {
     font-size: 60px;
 }
-
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+h5 {
+    font-size: 20px;
+}
 p{
     font-size: 20px;
 }
@@ -68,8 +73,9 @@ li {
     font-size: 20px;
 }
 
-hr {
-    width: 70px;
+
+a {
+    font-size: 20px;
 }
 
 .arrow {
@@ -99,6 +105,11 @@ header{
     min-height: 60px;
     align-items: center;
     
+}
+.drpbx-hdr a {
+    text-decoration: none;
+   color: currentColor;
+   
 }
 
 /* main */
@@ -154,6 +165,7 @@ header{
    
 }
 
+
 .cll-lst{
     padding: 40px;
 }
@@ -161,19 +173,25 @@ header{
 .cll-lst > ul  > li{
     margin-bottom: 20px;
 }
-.btn-lst {
+.cll-lst > p,button,hr { 
+    margin-bottom: 40px;
+}
+.hr-line {
+    border: 1px solid rgba(219, 219, 221, 1);
+    width: 70px;
     
 }
+.lst-anc {
+    color: rgb(0, 97, 255);
+    
+}
+
 .check {
     color: rgb(0, 97, 255);
     font-size: large;
 }
 
-.psn-btn {
-    position: absolute;
-    top: 40px;
-    right: 10px;
-}
+
 
 .cll-ttl {
     text-align: center;
@@ -208,8 +226,17 @@ header{
     padding: 40px;
     text-align: left;
 }
+
+.cll-mls-40 > h3, p, button{
+    margin-bottom: 30px;
+}
 .cll-mls-60{
     width: 60%;
+}
+.cll-mls-40 > button {
+    background-color: transparent;
+    border: 1px solid black ;
+    color: currentColor;
 }
 
 /* lower-sc */
@@ -225,8 +252,12 @@ header{
 
 /* sponsor-sct */
 
-.sponsor-sct{
-
+.sponsor-sct  a{
+    color: rgb(0, 97, 255);
+    margin-bottom: 50px;
+}
+.sponsor-sct h2{
+    margin-bottom: 50px;
 }
 
 
@@ -236,9 +267,58 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: calc(4 * 100vw / 12);
+    height: calc(4 * 100vw / 12);}
+
+
+
+/* close-sct */
+
+.close-sct {
+    background-color: rgb(180, 208, 231);
 }
 
+
+.cls-cll-60{
+    width: 60%;
+    color: rgba(156, 103, 124, 1);
+    align-self: center;
+    padding: 200px 30px;
+    
+}
+.cls-cll-40{
+    width: 40%;
+    align-self: center;
+    padding: 200px 30px;
+    
+   
+}
+
+
+
+
+/* footer */
+
+footer {
+    background-color: rgba(98, 98, 98, 1);
+    color: white;
+}
+
+.row-ft{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+.coll-ft > ul > li{
+    margin-top: 20px;
+}
+.globe{
+    padding-left: 100px;
+}
+.globe > hr {
+    width: 200px;
+}
 /* debug */
 /* .debug header{
     background-color: aqua;
@@ -258,3 +338,4 @@ border: black solid ;
 .debug .colonna-3d3{
     border: solid black;
 } */
+
